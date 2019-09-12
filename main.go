@@ -46,7 +46,8 @@ func main() {
 				fmt.Println( er.Error() )
 				os.Exit( 1 )
 			}
-
+		}else{
+			fmt.Println("Service is healthy")
 		}
 	}
 }
